@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="../Img/logo3.png">
+        <link rel="stylesheet" href="../css/menuA.css" type="text/css"/>
+        <link href="../css/General.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/Chats/nuevoChat.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="../css/menu.css" type="text/css">
+        <link href="../css/desplegable.css" rel="stylesheet" type="text/css"/>
+        <script src="../JS/desplegar.js" type="text/javascript"></script>
+        <link href="../css/botones.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="../css/Perfil/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="../css/Perfil/demo.css" />
+        <link rel="stylesheet" type="text/css" href="../css/Perfil/cs-select.css" />
+        <link rel="stylesheet" type="text/css" href="../css/Perfil/cs-skin-circular.css" />
+        <link href="../css/Perfil/Intereses.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Lobster+Two|Pacifico" rel="stylesheet">
+        <link rel="stylesheet" href="../font-Awesome/css/font-awesome.min.css" type="text/css"/>
+        <link href="../css/Perfil/Inicio.css" rel="stylesheet" type="text/css"/>
+        <title>Venus</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="MenuA">
+            <div class="Logo">
+                <img src="../Img/logo3.png" alt=""/>
+            </div>
+            <div class="Derecha">
+                <ul class="ca-menu">
+                    <li class="chico">
+                        <a href="Aplicacion/Aplicacion.jsp">
+                            <span class="fa fa-sign-out" id="H"></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Salir</h2>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="grande">
+                        <a href="Practica/Practica.jsp">
+                            <span class="fa fa-bell" id="M"></span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Notificaciones</h2>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="Venus">
+                Venus
+            </div>
+        </div>
+        <div class="Menu">
+        <div class="Abrir">
+            <button class="bars btnMenu" id="Abrir" style="visibility: hidden" onclick="w3_open()">
+                <i class="fa fa-bars"></i><p>Menú</p>
+            </button>
+        </div>
+        <div class="container" id="mySidebar">
+        <button onclick="w3_close()" class="btnMenu">
+            <i class="fa fa-times" aria-hidden="true"></i><p>Cerrar</p>
+        </button> 
+            <nav>
+                <ul class="mcd-menu">
+                    <li>
+                        <a href="../Plantillas/TimeLine.html">
+                            <i class="fa fa-home"></i>
+                            <strong>Home</strong>
+                            <small>sweet home</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Armario/Armario.html">
+                            <i class="fa fa-female"></i>
+                            <strong>Armario</strong>
+                            <small>Tu tesoro personal</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-calendar"></i>
+                            <strong>Calendario</strong>
+                            <small>Agenda tu día a día</small>
+                        </a>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-refresh"></i>Ciclo</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../Chats/Chats.html">
+                            <i class="fa fa-comments-o"></i>
+                            <strong>Chats</strong>
+                            <small>Siéntete libre de hablar</small>
+                        </a>
+                        <ul>
+                            <li><a href="../Chats/ChatsPublicos.html"><i class="fa fa-unlock-alt"></i>Públicos</a></li>
+                            <li><a href="../Chats/ChatsPrivados.html"><i class="fa fa-lock"></i>Privados</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../Tutoriales/Tutoriales.html">
+                            <i class="fa fa-picture-o"></i>
+                            <strong>Tutoriales</strong>
+                            <small>Aprende algo nuevo</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Perfil.html"  class="active">
+                            <i class="fa fa-user"></i>
+                            <strong>Perfil</strong>
+                            <small>Tu privacidad</small>
+                        </a>
+                        <ul>
+                            <li><a href="MisOutfits.html"><i class="fa fa-tags"></i>Mis outfits</a></li>
+                            <li><a href="Intereses.html"><i class="fa fa-heart"></i>Intereses</a></li>
+                            <li><a href="Peticiones.html"><i class="fa fa-pencil"></i>Mis peticiones</a></li>
+                            <li><a href="Contactos.html"><i class="fa fa-group"></i>Contactos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+        <div class="Inicio">
+            <div class="Usuarios">
+                <p class="LobsterTwo size50">Intereses</p>
+                Selecciona con el menú de abajo el interés al cual quieres acceder
+                <div class="container">
+			<section>
+				<select class="cs-select cs-skin-circular">
+					<option value="" disabled selected>Select an activity</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+				</select>
+			</section>
+		</div><!-- /container -->
+                <script src="../JS/classie.js" type="text/javascript"></script>
+                <script src="../JS/selectFx.js" type="text/javascript"></script>
+<script>
+        (function() {
+                [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+                        new SelectFx(el, {
+                                stickyPlaceholder: false,
+                                onChange: function(val){
+                                        var img = document.createElement('img');
+                                        img.src = '../Img/Perfil/'+val+'.png';
+                                        img.onload = function() {
+                                                document.querySelector('span.cs-placeholder').style.backgroundImage = 'url(../Img/Perfil/'+val+'.png)';
+                                                document.querySelector('span.cs-placeholder').style.backgroundSize = '100px';
+                                                var i = 1;
+                                                for(i;i<9;i++){
+                                                    var valor=""+val;
+                                                    var verificar = ""+i;
+                                                    if(valor===verificar)
+                                                        document.getElementById(i).style.visibility = 'visible';
+                                                    else
+                                                        document.getElementById(i).style.visibility = 'hidden';
+                                                }
+                                        };
+                                }
+                        });
+                } );
+        })();
+        function mensaje(){
+            alert('Datos guardados exitosamente');
+        }
+</script>
+                <button class="btnFont desNOweidht right guardar" id="guardar" onclick="mensaje();location.href='Intereses.html'" >Guardar</button>
+                <div class="TodosI">
+                    <div class="intereses" id="1">
+                        <p class="RalewayP margin0 fontsize25">Intereses de chat</p><br>
+                        <input type="checkbox" class="plus">Moda<br><br>
+                        <input type="checkbox" class="plus">Belleza<br><br>
+                        <input type="checkbox" class="plus">Consejos<br><br>
+                        <input type="checkbox" class="plus">Confesiones<br><br>
+                        <input type="checkbox" class="plus">Diversión<br><br>
+                        <input type="checkbox" class="plus">Amistades<br><br>
+                    </div>
+                    <div class="intereses" id="2">
+                        <p class="RalewayP margin0 fontsize25">Intereses de outfits</p><br>
+                        <input type="checkbox" class="plus">Lo más nuevo<br><br>
+                        <input type="checkbox" class="plus">Hipster<br><br>
+                        <input type="checkbox" class="plus">Fresa<br><br>
+                        <input type="checkbox" class="plus">Elegante<br><br>
+                        <input type="checkbox" class="plus">Rockera<br><br>
+                        <input type="checkbox" class="plus">Dark<br><br>
+                    </div>
+                    <div class="intereses" id="3">
+                        <p class="RalewayP margin0 fontsize25">Intereses de publicaciones</p><br>
+                        <input type="checkbox" class="plus">Feminismo<br><br>
+                        <input type="checkbox" class="plus">Risa<br><br>
+                        <input type="checkbox" class="plus">Moda<br><br>
+                        <input type="checkbox" class="plus">Motivadoras<br><br>
+                        <input type="checkbox" class="plus">Frases<br><br>
+                        <input type="checkbox" class="plus">Política y cosas más serias<br><br>
+                        <input type="checkbox" class="plus">Amor<br><br>
+                    </div>
+                    <div class="intereses" id="4">
+                        <p class="RalewayP margin0 fontsize25">Intereses de accesorios</p><br>
+                        <input type="checkbox" class="plus">Collares<br><br>
+                        <input type="checkbox" class="plus">Pulseras<br><br>
+                        <input type="checkbox" class="plus">Anillos<br><br>
+                        <input type="checkbox" class="plus">Aretes<br><br>
+                        <input type="checkbox" class="plus">Bufandas<br><br>
+                        <input type="checkbox" class="plus">Gorras<br><br>
+                        <input type="checkbox" class="plus">Gorritos<br><br>
+                    </div>
+                    <div class="intereses" id="5">
+                        <p class="RalewayP margin0 fontsize25">Colores de tus prendas y accesorios</p><br>
+                        <input type="checkbox" class="plus">Coloridos<br><br>
+                        <input type="checkbox" class="plus">Oscuros<br><br>
+                        <input type="checkbox" class="plus">Estampados<br><br>
+                        <input type="checkbox" class="plus">Rosas<br><br>
+                        <input type="checkbox" class="plus">Arcoíris<br><br>
+                    </div>
+                    <div class="intereses" id="6">
+                        <p class="RalewayP margin0 fontsize25">Intereses de zapatos</p><br>
+                        <input type="checkbox" class="plus">Botas<br><br>
+                        <input type="checkbox" class="plus">Tenis<br><br>
+                        <input type="checkbox" class="plus">Zapatos de piso<br><br>
+                        <input type="checkbox" class="plus">Tacones<br><br>
+                        <input type="checkbox" class="plus">Sandalias<br><br>
+                    </div>
+                    <div class="intereses" id="7">
+                        <p class="RalewayP margin0 fontsize25">Intereses de tutoriales</p><br>
+                        <input type="checkbox" class="plus">Repostería<br><br>
+                        <input type="checkbox" class="plus">DIY'S<br><br>
+                        <input type="checkbox" class="plus">Cocina<br><br>
+                        <input type="checkbox" class="plus">Moda<br><br>
+                        <input type="checkbox" class="plus">Maquillaje<br><br>
+                        <input type="checkbox" class="plus">Entretenimiento<br><br>
+                        <input type="checkbox" class="plus">Belleza Personal<br><br>
+                    </div>
+                    <div class="intereses" id="8">
+                        <p class="RalewayP margin0 fontsize25">Intereses de ropa</p><br>
+                        <input type="checkbox" class="plus">Playeras<br><br>
+                        <input type="checkbox" class="plus">Blusas<br><br>
+                        <input type="checkbox" class="plus">Pantalones<br><br>
+                        <input type="checkbox" class="plus">Shorts<br><br>
+                        <input type="checkbox" class="plus">Medias<br><br>
+                        <input type="checkbox" class="plus">Sueteres<br><br>
+                        <input type="checkbox" class="plus">Sudaderas<br><br>
+                        <input type="checkbox" class="plus">Chamarras<br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

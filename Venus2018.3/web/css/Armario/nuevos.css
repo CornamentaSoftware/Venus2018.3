@@ -1,0 +1,42 @@
+.estrella{
+    color: #F6DA1E;
+    font-size: 1.5em;
+    position: absolute;
+}
+.size{
+    font-size: 2em;
+}
+.size2{
+    font-size: 1.5em;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.intercambio{ 
+    color: #F0DCD8;
+    font-size: 1.5em;
+    position: absolute;
+    margin-left: 55%;
+}
+.intercambio2{ 
+    color: #E34B48;
+    font-size: 1.5em;
+    position: absolute;
+    margin-left: 55%;
+}
+.nadaInputTextFloatL{
+    width: 0px;
+    visibility: hidden; 
+    height: 0px;
+    float: left;
+    background: none;
+    border: none;
+}
+.borderBottom{
+    border-bottom: 25px;
+}
+.nadaForm{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}

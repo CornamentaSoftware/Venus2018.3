@@ -1,0 +1,133 @@
+.InicioChats{
+    width: 55%;
+    float: left;
+    position: absolute;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+}
+.msjChats{
+    height: 91%;
+    width: 55%;
+    float: left;
+    position: absolute;
+    margin-left: 21.5%;
+    margin-right: 21.5%;
+}
+.marginL{
+    margin-left: 10%;
+    margin-top: 0px;
+}
+.marginL5{
+    margin-left: 5%;
+}
+.datosChat{
+    width: 75%;
+    margin-left: 20px;
+    float: left;
+}
+.Chats{
+    margin: 0px;
+    width: 100%;
+    padding: 10px;
+    height: 120px;
+    border-top: 1.5px solid #bfbdbd;
+}
+.Chats:hover{
+    background-color: #e6e6e6;
+}
+.veinte1{
+    width: 20%;
+    float: left;
+}
+.veinte2{
+    width: 20%;
+    float: left;
+}
+.veinte2 Img{
+    border-radius: 50%;
+    max-width: 70%;
+    height: auto;
+    width: auto/9; 
+    float: left;
+}
+.veinte1 Img{
+    border-radius: 50%;
+    max-width: 90%;
+    height: auto;
+    width: auto/9; 
+    float: left;
+}
+.Contenido{
+    position: absolute;
+}
+.opciones{
+    float: left;
+    position: absolute;
+    margin-top: 39%;
+    width: 100%;
+}
+@media only screen and (max-width: 1100px){
+    .opciones{
+        margin-top: 50%;
+    }
+}
+@media only screen and (max-width: 780px){
+    .opciones{
+        margin-top: 60%;
+    }
+}
+.contOpc{
+    float: right;
+    margin-right: 3%;
+}
+.opciones2{
+    float: right;
+    margin-top: 3%;
+    width: 100%;
+    margin-left: 78%;
+}
+.InicioChats .img{
+    width: 15%;
+    position: absolute;
+}
+.texto{
+    text-align: center;
+    margin-top: 20%;
+    padding: 5%;
+}
+.a{
+    left:15%;
+    top:15%;
+}
+.b{
+    left:42.5%;
+    border-radius:50%;
+}
+.c{
+    left:85%;
+    top:65%;
+    border-radius:10%;
+}
+.d{
+    left:70%;
+    top:15%;
+}
+.e{
+    left:68%;
+    top:105%;
+}
+.f{
+    left:42.5%;
+    top:120%;
+}
+.g{
+    top:105%;
+    left:15%
+}
+.h{
+    top:65%;
+}
+.pequeño{
+    width: 50%;
+    margin: auto;
+}
